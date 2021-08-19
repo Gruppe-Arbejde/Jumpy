@@ -6,7 +6,6 @@ button_h = 72; //sets the distance between text buttons
 
 //credits
 credit[0] = "YOU ARE DEAD";
-credit[1] = "MISSION FAILED WE'LL GET EM NEXT TIME";
 credits = array_length_1d(credit);
 
 credits_x = 640; //sets the x coordinate of text

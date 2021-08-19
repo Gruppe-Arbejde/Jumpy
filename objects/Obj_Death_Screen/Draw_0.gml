@@ -16,7 +16,7 @@ repeat(buttons) {
 }
 
 repeat(credits) {
-	draw_set_color(c_ltgray); //
+	draw_set_font(font_death);
+	draw_set_color(c_white); //
 	draw_text(credits_x, credits_y + credits_h * o, credit[o]);
-	o++;
 }
