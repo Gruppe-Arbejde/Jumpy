@@ -2,7 +2,7 @@
 switch(menu_index) {
 
 	case 0: //start button
-		room_goto(Room1)
+		room_goto(room0)
 		audio_play_sound(snd_menu_select, 100, false);
 		//show_debug_message("NEW MENU");
 		break;
