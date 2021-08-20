@@ -1,6 +1,6 @@
 ///Key press detection and button selection
 if (allowmove == true){
-	menu_move = keyboard_check_pressed(vk_down) or (gamepad_axis_value(4, gp_axislh) > 0.4) - keyboard_check_pressed(vk_up); //detects if arrow keys is pressed
+	menu_move = keyboard_check_pressed(vk_down) //or (gamepad_axis_value(4, gp_axislh) > 0.4) - keyboard_check_pressed(vk_up); //detects if arrow keys is pressed
 	menu_index += menu_move;
 
 if (menu_index < 0) menu_index = buttons - 1; //prevents the menu_index variable to go specified parameters
