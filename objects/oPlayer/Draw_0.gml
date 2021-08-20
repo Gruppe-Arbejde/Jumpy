@@ -1,12 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-//for(var i = 0; i < 8 ; i++)
-//{
-//	draw_point(bbox_left, bbox_top-(i * 4));
-//	draw_point(bbox_right, bbox_top-(i * 4));
-//	draw_point(bbox_left+(i*2), bbox_top-sprite_height*2);
-//}
+/// @description
 
 draw_self();
 
