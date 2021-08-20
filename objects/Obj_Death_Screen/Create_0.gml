@@ -24,3 +24,5 @@ last_selected = 0;
 audio_play_sound(snd_death, 100, false);
 audio_stop_sound(snd_hell);
 //d
+
+allowmove = true;

@@ -39,7 +39,7 @@ else
 #endregion
 
 #region control the gravity and jumping
-var onTheFloor = place_meeting(x, y+1, oSolid);
+var onTheFloor = place_meeting(x, y-1, oSolid) or place_meeting(x,y-1,obj_platform2);
 
 if(onTheFloor)
 {

@@ -14,7 +14,7 @@ last_selected = menu_index;
 }
 
 
-if gamepad_button_check_pressed(4, gp_face1){
+if gamepad_button_check_pressed(4, gp_face4){
 
 switch(menu_index) 
 	{
