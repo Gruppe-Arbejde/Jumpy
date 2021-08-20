@@ -11,7 +11,7 @@ draw_set_color(c_ltgray); //sets the color of the text as light gray
 repeat(buttons) {
 	draw_set_color(c_ltgray); //
 	if (menu_index == i) draw_set_color(c_red);
-	draw_text(menu_x, menu_y + button_h * i, button[i]);
+	draw_text(credit_menu_x, credit_menu_y + button_h * i, button[i]);
 	i++;
 }
 

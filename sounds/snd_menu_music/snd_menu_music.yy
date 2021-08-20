@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_menu_music.wav",
-  "duration": 7.44,
+  "duration": 7.64,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
