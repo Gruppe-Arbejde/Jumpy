@@ -5,9 +5,9 @@ function scr_jumpCode() {
 	{
 		vspd = jumpForce;	
 	}
-	else if(joyJump)
-	{
-		vspd = jumpForce;	
-	}
+	//else if(joyJump)
+	//{
+	//	vspd = jumpForce;	
+	//}
 
 }

@@ -26,15 +26,15 @@ else
 	hspd = 0;
 }
 
-if (gamepad_axis_value(4, gp_axislh) > 0.2){
-    hspd += moveSpd;
-} else if (gamepad_axis_value(4, gp_axislh) < -0.2){
-	hspd += -moveSpd;
-}
-else
-{
-	hspd = 0;
-}
+//if (gamepad_axis_value(4, gp_axislh) > 0.2){
+//    hspd += moveSpd;
+//} else if (gamepad_axis_value(4, gp_axislh) < -0.2){
+//	hspd += -moveSpd;
+//}
+//else
+//{
+//	hspd = 0;
+//}
 
 #endregion
 
