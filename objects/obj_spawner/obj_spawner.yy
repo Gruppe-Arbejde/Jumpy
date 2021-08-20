@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite8",
-    "path": "sprites/Sprite8/Sprite8.yy",
+    "name": "spr_spawner",
+    "path": "sprites/spr_spawner/spr_spawner.yy",
   },
   "solid": false,
   "visible": true,
