@@ -2,6 +2,9 @@
 // You can write your code in this editor
 
 scr_controls();
+inputDirection = point_direction(0,0,right-left, 0);
+	inputMagnitude = (right - left != 0);
+
 
 #region control the player horizontal movement
 
@@ -68,7 +71,7 @@ var _oldsprite = sprite_index;
 if (inputMagnitude != 0)
 {
 	direction = inputDirection;
-	sprite_index = spriteIdle;
+	sprite_index = spriteRun;
 }else sprite_index = spriteIdle;
 if(_oldsprite != sprite_index) localFrame = 0;
 

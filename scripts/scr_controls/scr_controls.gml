@@ -8,8 +8,8 @@ function scr_controls() {
 	jumpReleased = keyboard_check_released(vk_space);
 
 	//Calculate movement
-	inputDirection = point_direction(0,0,right-left, 0);
-	inputMagnitude = (right - left != 0);
+	//inputDirection = point_direction(0,0,right-left, 0);
+	//inputMagnitude = (right - left != 0);
 
 	keyboard_set_map(right, vk_right);
 	keyboard_set_map(left, vk_left);

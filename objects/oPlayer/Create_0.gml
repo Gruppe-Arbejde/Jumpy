@@ -10,6 +10,8 @@ jumpForce = -15;
 objectShowVspd = noone;
 
 spriteIdle = spr_player;
+spriteRun = spr_playerRun;
+spriteJump = spr_playerJump;
 localFrame = 0;
 
 audio_stop_all();
