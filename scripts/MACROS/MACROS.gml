@@ -4,4 +4,5 @@ function MACROS(){
 	#macro FRAME_RATE 30
 	#macro GRAVITY 0.5
 	#macro JUMP_HEIGHT -8
+	#macro MOVESPEED 2.0
 }

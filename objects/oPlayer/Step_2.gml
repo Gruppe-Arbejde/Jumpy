@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 scr_controls();
+
 #region control the player horizontal movement
 
 if(right)
@@ -48,7 +50,7 @@ else
 
 #endregion
 
-var  maxSpeed = 8;
+var  maxSpeed = 4;
 #region clamp the player horizontal speed
 hspd = clamp(hspd, -maxSpeed, maxSpeed);
 

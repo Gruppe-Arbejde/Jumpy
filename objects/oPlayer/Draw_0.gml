@@ -1,15 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-//draw_rectangle(bbox_left, bbox_top-50, bbox_right, bbox_bottom-8, true);
-
-for(var i = 0; i < 8 ; i++)
-{
-	draw_point(bbox_left, bbox_top-(i * 4));
-	draw_point(bbox_right, bbox_top-(i * 4));
-	draw_point(bbox_left+(i*2), bbox_top-sprite_height*2);
-	//draw_primitive_begin()
-}
+//for(var i = 0; i < 8 ; i++)
+//{
+//	draw_point(bbox_left, bbox_top-(i * 4));
+//	draw_point(bbox_right, bbox_top-(i * 4));
+//	draw_point(bbox_left+(i*2), bbox_top-sprite_height*2);
+//}
 
 draw_self();
 
@@ -24,5 +21,5 @@ if(objectShowVspd != noone)
 }
 
 
-draw_set_colour(c_white);
+draw_set_colour(c_red);
 

@@ -5,7 +5,7 @@ image_speed = 0;
 hSpeed = 0;
 vSpeed = 0;
 grv = GRAVITY;
-walkSpeed = 2.0;
+walkSpeed = MOVESPEED;
 
 spriteIdle = spr_player;
 localFrame = 0;
