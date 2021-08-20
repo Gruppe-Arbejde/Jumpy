@@ -1,7 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},"order":13,},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},"order":0,},
     {"id":{"name":"Obj_credits","path":"objects/Obj_credits/Obj_credits.yy",},"order":5,},
+    {"id":{"name":"obj_platform2","path":"objects/obj_platform2/obj_platform2.yy",},"order":11,},
     {"id":{"name":"scr_collisions","path":"scripts/scr_collisions/scr_collisions.yy",},"order":2,},
     {"id":{"name":"snd_menu_music","path":"sounds/snd_menu_music/snd_menu_music.yy",},"order":1,},
     {"id":{"name":"Room_credits","path":"rooms/Room_credits/Room_credits.yy",},"order":4,},
@@ -21,11 +23,13 @@
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":9,},
     {"id":{"name":"scr_jumpCode","path":"scripts/scr_jumpCode/scr_jumpCode.yy",},"order":4,},
     {"id":{"name":"oJumThrough2","path":"objects/oJumThrough2/oJumThrough2.yy",},"order":8,},
+    {"id":{"name":"oFloor","path":"objects/oFloor/oFloor.yy",},"order":14,},
     {"id":{"name":"room0","path":"rooms/room0/room0.yy",},"order":6,},
     {"id":{"name":"spr_jumpThrough","path":"sprites/spr_jumpThrough/spr_jumpThrough.yy",},"order":6,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":7,},
     {"id":{"name":"scr_jumpThroughCollisions","path":"scripts/scr_jumpThroughCollisions/scr_jumpThroughCollisions.yy",},"order":5,},
     {"id":{"name":"snd_death","path":"sounds/snd_death/snd_death.yy",},"order":5,},
+    {"id":{"name":"spr_platform2","path":"sprites/spr_platform2/spr_platform2.yy",},"order":12,},
     {"id":{"name":"PlayerAnimationSprite","path":"scripts/PlayerAnimationSprite/PlayerAnimationSprite.yy",},"order":1,},
     {"id":{"name":"snd_menu_switch","path":"sounds/snd_menu_switch/snd_menu_switch.yy",},"order":0,},
     {"id":{"name":"scr_controls","path":"scripts/scr_controls/scr_controls.yy",},"order":3,},
@@ -33,7 +37,9 @@
     {"id":{"name":"spr_vMovingPlatform","path":"sprites/spr_vMovingPlatform/spr_vMovingPlatform.yy",},"order":9,},
     {"id":{"name":"spr_playerRun","path":"sprites/spr_playerRun/spr_playerRun.yy",},"order":11,},
     {"id":{"name":"snd_jump","path":"sounds/snd_jump/snd_jump.yy",},"order":4,},
+    {"id":{"name":"obj_spawner","path":"objects/obj_spawner/obj_spawner.yy",},"order":12,},
     {"id":{"name":"spr_background_death","path":"sprites/spr_background_death/spr_background_death.yy",},"order":5,},
+    {"id":{"name":"sfloor","path":"sprites/sfloor/sfloor.yy",},"order":13,},
     {"id":{"name":"snd_hell","path":"sounds/snd_hell/snd_hell.yy",},"order":3,},
   ],
   "Options": [

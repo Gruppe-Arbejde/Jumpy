@@ -5,6 +5,11 @@ scr_controls();
 inputDirection = point_direction(0,0,right-left, 0);
 	inputMagnitude = (right - left != 0);
 
+if (y > room_height)
+{
+	instance_destroy(self)
+	room_goto(Room_Death_Screen);
+}
 
 #region control the player horizontal movement
 

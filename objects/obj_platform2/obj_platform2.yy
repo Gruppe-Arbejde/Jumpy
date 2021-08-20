@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_jumpThrough",
-    "path": "sprites/spr_jumpThrough/spr_jumpThrough.yy",
+    "name": "spr_platform2",
+    "path": "sprites/spr_platform2/spr_platform2.yy",
   },
   "solid": false,
   "visible": true,
@@ -11,7 +11,7 @@
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 0,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -19,7 +19,12 @@
   "physicsFriction": 0.2,
   "physicsStartAwake": true,
   "physicsKinematic": false,
-  "physicsShapePoints": [],
+  "physicsShapePoints": [
+    {"x":0.0,"y":0.0,},
+    {"x":26.0,"y":0.0,},
+    {"x":26.0,"y":5.0,},
+    {"x":0.0,"y":5.0,},
+  ],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
@@ -31,7 +36,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oJumpThroughPlatform",
+  "name": "obj_platform2",
   "tags": [],
   "resourceType": "GMObject",
 }
