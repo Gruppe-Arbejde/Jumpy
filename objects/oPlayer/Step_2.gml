@@ -63,10 +63,20 @@ scr_collisions();
 
 #endregion
 
-
+//Update sprite index
+var _oldsprite = sprite_index;
+if (inputMagnitude != 0)
+{
+	direction = inputDirection;
+	sprite_index = spriteIdle;
+}else sprite_index = spriteIdle;
+if(_oldsprite != sprite_index) localFrame = 0;
 
 var getId = collision_rectangle(bbox_left, bbox_top-50, bbox_right, bbox_bottom-8, oJumpThroughPlatform, false, false) ;
 if(getId != noone)
 {
 	objectShowVspd = getId;
 }
+
+//Update image index
+PlayerAnimationSprite();
