@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_jumpThrough",
-    "path": "sprites/spr_jumpThrough/spr_jumpThrough.yy",
+    "name": "spr_platform_WoodMetal",
+    "path": "sprites/spr_platform_WoodMetal/spr_platform_WoodMetal.yy",
   },
   "solid": false,
   "visible": true,

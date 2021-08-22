@@ -5,6 +5,8 @@ function scr_jumpThroughCollisions(argument0) {
 	var obj = argument0;
 	var falling = vspd > 0;
 	var platformBelow = instance_place(x, y+vspd, obj);
+	
+
 
 	if(falling)
 	{

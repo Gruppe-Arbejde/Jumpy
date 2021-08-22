@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+
 scr_controls();
 inputDirection = point_direction(0,0,right-left, 0);
 	inputMagnitude = (right - left != 0);
@@ -27,8 +29,12 @@ else
 }
 
 if (gamepad_axis_value(4, gp_axislh) > 0.2){
+	moveSpd = 4.0;
+	
     hspd += moveSpd;
 } else if (gamepad_axis_value(4, gp_axislh) < -0.2){
+	moveSpd = 4.0;
+	
 	hspd += -moveSpd;
 }
 else
@@ -36,17 +42,22 @@ else
 	hspd = 0;
 }
 
+
 #endregion
 
+
+
 #region control the gravity and jumping
-var onTheFloor = place_meeting(x, y-1, oSolid) or place_meeting(x,y-1,obj_platform2);
+var onTheFloor = place_meeting(x, y+1, oSolid) or place_meeting(x,y+1,obj_platform2);
 
 if(onTheFloor)
 {
+	
 	vspd = 0;
 	
-	//allow jumping
+//allow jumping
 	scr_jumpCode();
+	
 	
 	
 }

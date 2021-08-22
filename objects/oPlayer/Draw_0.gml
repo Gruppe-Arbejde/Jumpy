@@ -8,9 +8,10 @@ draw_set_colour(c_ltgray);
 
 if(objectShowVspd != noone)
 {
-	draw_text(objectShowVspd.x, objectShowVspd.y-80, "vspd :" + string(floor(vspd)));
+	draw_text(objectShowVspd.x, objectShowVspd.y+120, "vspd :" + string(floor(vspd)));
 	
 }
+
 
 
 draw_set_colour(c_red);
