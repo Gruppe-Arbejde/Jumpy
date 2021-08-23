@@ -18,6 +18,7 @@
     {"id":{"name":"spr_background_start_hell","path":"sprites/spr_background_start_hell/spr_background_start_hell.yy",},"order":10,},
     {"id":{"name":"oJumpThroughPlatform","path":"objects/oJumpThroughPlatform/oJumpThroughPlatform.yy",},"order":7,},
     {"id":{"name":"obj_jumpthruplatform","path":"objects/obj_jumpthruplatform/obj_jumpthruplatform.yy",},"order":2,},
+    {"id":{"name":"spr_background_ingame","path":"sprites/spr_background_ingame/spr_background_ingame.yy",},"order":13,},
     {"id":{"name":"spr_background_start_heaven","path":"sprites/spr_background_start_heaven/spr_background_start_heaven.yy",},"order":9,},
     {"id":{"name":"tileset0","path":"tilesets/tileset0/tileset0.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":9,},
