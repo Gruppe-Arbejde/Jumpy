@@ -4,14 +4,29 @@
 
 
 scr_controls();
-inputDirection = point_direction(0,0,right-left, 0);
-inputMagnitude = (right - left != 0);
+inputDirection = point_direction(0,0,keyRight-keyLeft, 0);
+inputMagnitude = (keyRight - keyLeft != 0);
 
 if (y > room_height)
 {
 	instance_destroy(self)
 	room_goto(Room_Death_Screen);
 }
+
+//#region update sprite
+////Update sprite index
+//var _oldsprite = sprite_index;
+//if (inputMagnitude != 0)
+//{
+//	direction = inputDirection;
+//	sprite_index = spriteIdle;
+//}else sprite_index = spriteIdle;
+//if(_oldsprite != sprite_index) localFrame = 0;
+
+////Update image index
+//PlayerAnimationSprite();
+
+//#endregion
 
 #region control the player horizontal movement
 
@@ -29,11 +44,13 @@ else
 }
 
 if (gamepad_axis_value(4, gp_axislh) > 0.2){
-	moveSpd = 10.0;
+	moveSpd = 15.0;
+	sprite_index = spriteIdleRight;
 	
     hspd += moveSpd;
 } else if (gamepad_axis_value(4, gp_axislh) < -0.2){
-	moveSpd = 10.0;
+	moveSpd = 15.0;
+	sprite_index = spriteIdleLeft;
 	
 	hspd += -moveSpd;
 }
@@ -76,7 +93,6 @@ else
 	}
 }
 
-
 #endregion
 
 var  maxSpeed = 4;
@@ -97,17 +113,6 @@ if(getId != noone)
 
 #endregion
 
-#region update sprite
-//Update sprite index
-var _oldsprite = sprite_index;
-if (inputMagnitude != 0)
-{
-	direction = inputDirection;
-	sprite_index = spriteRun;
-}else sprite_index = spriteIdle;
-if(_oldsprite != sprite_index) localFrame = 0;
+direction = -90
+speed = 1
 
-//Update image index
-PlayerAnimationSprite();
-
-#endregion

@@ -1,17 +1,17 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-direction = -90;
-speed = 1;
+
 image_speed = 0;
-GRAV = 0.8;
+GRAV = 1;
 moveSpd= 2.0;
 hspd = 0;
 vspd = 0;
-jumpForce = -15;
+jumpForce = -18;
 objectShowVspd = noone;
 
-spriteIdle = spr_player;
+spriteIdleRight = spr_player;
+spriteIdleLeft = spr_player_left;
 spriteRun = spr_playerRun;
 spriteJump = spr_playerJump;
 localFrame = 0;

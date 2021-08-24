@@ -37,6 +37,7 @@
     {"id":{"name":"scr_controls","path":"scripts/scr_controls/scr_controls.yy",},"order":3,},
     {"id":{"name":"Obj_leaderboard","path":"objects/Obj_leaderboard/Obj_leaderboard.yy",},"order":17,},
     {"id":{"name":"font_death","path":"fonts/font_death/font_death.yy",},"order":0,},
+    {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},"order":14,},
     {"id":{"name":"platform_brick","path":"sprites/platform_brick/platform_brick.yy",},"order":11,},
     {"id":{"name":"snd_death","path":"sounds/snd_death/snd_death.yy",},"order":0,},
     {"id":{"name":"spr_playerJump","path":"sprites/spr_playerJump/spr_playerJump.yy",},"order":4,},
