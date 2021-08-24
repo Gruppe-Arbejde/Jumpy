@@ -5,7 +5,7 @@
 
 scr_controls();
 inputDirection = point_direction(0,0,right-left, 0);
-	inputMagnitude = (right - left != 0);
+inputMagnitude = (right - left != 0);
 
 if (y > room_height)
 {
@@ -29,11 +29,11 @@ else
 }
 
 if (gamepad_axis_value(4, gp_axislh) > 0.2){
-	moveSpd = 4.0;
+	moveSpd = 10.0;
 	
     hspd += moveSpd;
 } else if (gamepad_axis_value(4, gp_axislh) < -0.2){
-	moveSpd = 4.0;
+	moveSpd = 10.0;
 	
 	hspd += -moveSpd;
 }
@@ -89,9 +89,15 @@ hspd = clamp(hspd, -maxSpeed, maxSpeed);
 scr_jumpThroughCollisions(oJumpThroughPlatform);
 scr_collisions();
 
+var getId = collision_rectangle(bbox_left, bbox_top-50, bbox_right, bbox_bottom-8, oJumpThroughPlatform, false, false) ;
+if(getId != noone)
+{
+	objectShowVspd = getId;
+}
 
 #endregion
 
+#region update sprite
 //Update sprite index
 var _oldsprite = sprite_index;
 if (inputMagnitude != 0)
@@ -101,11 +107,7 @@ if (inputMagnitude != 0)
 }else sprite_index = spriteIdle;
 if(_oldsprite != sprite_index) localFrame = 0;
 
-var getId = collision_rectangle(bbox_left, bbox_top-50, bbox_right, bbox_bottom-8, oJumpThroughPlatform, false, false) ;
-if(getId != noone)
-{
-	objectShowVspd = getId;
-}
-
 //Update image index
 PlayerAnimationSprite();
+
+#endregion
