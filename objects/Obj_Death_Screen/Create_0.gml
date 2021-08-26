@@ -6,6 +6,7 @@ button_h = 72; //sets the distance between text buttons
 
 //credits
 credit[0] = "GAME OVER";
+credit[1] = "YOUR SCORE WAS";
 credits = array_length_1d(credit);
 
 credits_x = 640; //sets the x coordinate of second text

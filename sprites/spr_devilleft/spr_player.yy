@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 16,
   "bbox_right": 31,
-  "bbox_top": 26,
+  "bbox_top": 44,
   "bbox_bottom": 47,
   "HTile": false,
   "VTile": false,
