@@ -19,4 +19,4 @@ localFrame = 0;
 audio_stop_all();
 audio_play_sound(snd_hell, 100, true);
 
-alarm[0] = 60; 
+alarm[0] = 30; 

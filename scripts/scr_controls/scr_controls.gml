@@ -5,7 +5,7 @@ function scr_controls() {
 	left = keyboard_check(ord("A"));
 	keyRight = gamepad_axis_value(4, gp_axislh) > 0.2;
 	keyLeft = gamepad_axis_value(4, gp_axislh) < -0.2;
-	down = keyboard_check(ord("S") or gamepad_button_check_pressed(4, gp_face2));
+	down = keyboard_check(ord("S") or gamepad_button_check_pressed(4, gp_face3));
 	jump = keyboard_check_pressed(vk_space) or gamepad_button_check_pressed(4, gp_face4);
 	jumpReleased = keyboard_check_released(vk_space) or gamepad_button_check_pressed(4, gp_face4);
 	//joyJump = gamepad_button_check_pressed(4, gp_face4)

@@ -1,6 +1,8 @@
 /// Text output to user
 
 var i = 0;
+var o = 0;
+
 draw_set_font(font_main); //sets the text as specified font
 draw_set_halign(fa_center); //aligns text in the center
 draw_set_color(c_ltgray); //sets the color of the text as light gray
@@ -13,3 +15,9 @@ repeat(buttons) {
 	i++;
 }
 
+repeat(credits) {
+	draw_set_font(font_death); //sets the text as specified font
+	draw_set_color(c_white); //
+	draw_text(credits_x, credits_y + credits_h * o, credit[o]);
+	o++;
+}

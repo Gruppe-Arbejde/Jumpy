@@ -1,16 +1,16 @@
 //Creation of variables and position of text
 
 death_menu_x = 640; //sets the x coordinate of text
-death_menu_y = 560; //sets the y coordinate of text
-button_h = 72; //sets the distance between text buttons
+death_menu_y = 580; //sets the y coordinate of text
+button_h = 60; //sets the distance between text buttons
 
 //credits
 credit[0] = "GAME OVER";
-credit[1] = "YOUR SCORE WAS";
+credit[1] = "YOUR SCORE WAS:" + string(global.current_score);
 credits = array_length_1d(credit);
 
 credits_x = 640; //sets the x coordinate of second text
-credits_y = 490; //sets the y coordinate of second text
+credits_y = 465; //sets the y coordinate of second text
 credits_h = 72; //sets the distance between additional text
 
 // buttons
